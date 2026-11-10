@@ -338,6 +338,17 @@ button:not(nav button){font-weight:850!important}
 .cloud-admin-panel form button{margin-top:12px}
 
 .verification-status{display:block!important;font-size:12px!important;font-weight:850!important;margin-top:6px!important}.verification-status.pending{color:#a36a10!important}.verification-status.verified{color:#0c7a4d!important}
+
+/* Painel de validação dos pais */
+.approval-panel{border-color:#d6af59!important;background:#fffdf5!important}
+.approval-entry{display:flex;align-items:center;gap:12px;padding:13px 0;border-bottom:2px dashed #d5d3cc;flex-wrap:wrap}
+.approval-entry:last-child{border-bottom:0}
+.approval-entry .grow{flex:1;min-width:160px}
+.approval-entry b,.approval-entry small{display:block}
+.approval-entry small{margin-top:4px;font-size:12px;color:#687386}
+.approval-buttons{display:flex;gap:8px;flex-wrap:wrap}
+.approval-buttons button{min-width:85px}
+@media(max-width:440px){.approval-buttons{width:100%}.approval-buttons button{flex:1}}
 </style></head><body><nav id="nav" aria-label="Navegação principal"></nav><div class="banner-wrap"><section class="supporter-banner" aria-label="Bancada de adeptos do Benfica"><div class="banner-text"><span class="banner-kicker">🎮 JOGO DE ESTUDO · 9.º D</span><strong>MISSÃO<br>TIAGO</strong><span class="pixel-subtitle">RUMO ÀS CONQUISTAS</span></div><div class="banner-hud" id="bannerHud" aria-label="Nível e experiência"></div></section></div><main id="root"></main><script>
 const KEY='missao_tiago_v1',subjects=['Matemática','Português','Inglês','Francês','História','Geografia','Ciências Naturais','Físico-Química','Educação Física','Outra'],week=['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado'];
 const lessons={1:[['09:00–18:10','Aulas']],2:[['13:15–18:10','Aulas']],3:[['13:15–17:10','Aulas']],4:[['13:15–18:10','Aulas']],5:[['09:00–18:10','Aulas']]};
